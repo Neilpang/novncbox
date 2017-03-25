@@ -10,7 +10,7 @@ firefox-esr \
 menu \
 git \
 ttf-wqy-zenhei && \
-cd /root && git clone https://github.com/novnc/noVNC.git && \
+cd /root && git clone https://github.com/Neilpang/noVNC.git && \
 cd /root/noVNC && ln -s vnc_auto.html index.html && \
 cd utils && git clone https://github.com/novnc/websockify
 
