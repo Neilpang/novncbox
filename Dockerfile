@@ -12,7 +12,7 @@ ttf-wqy-zenhei
 
 RUN cd /root && git clone https://github.com/Neilpang/noVNC.git
 RUN cd /root/noVNC && ln -s vnc_auto.html index.html
-RUN cd utils && git clone https://github.com/novnc/websockify
+
 
 RUN mkdir -p /root/.config/openbox/
 ADD autostart.sh /root/.config/openbox/autostart.sh
