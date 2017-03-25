@@ -2,19 +2,19 @@
 noVNC with openbox
 
 
-#build
+# build
 ```sh
 docker build -t mynovncbox novncbox
 
 ```
 
 
-#run
+# run
 ```sh
 docker run -d -it -p 6080:6080 mynovncbox:latest
 ```
 
-#access
+# access
 
 ```
 http://ip:6080
