@@ -1,1 +1,2 @@
+$AUTO_START
 firefox $FIREFOX_URL &
