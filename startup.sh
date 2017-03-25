@@ -14,5 +14,5 @@ x11vnc -display :1 -nopw -listen localhost -xkb -ncache 10 -ncache_cr -forever &
 
 
 
-cd /root/noVNC && ./utils/launch.sh
+~/noVNC/utils/launch.sh
 
