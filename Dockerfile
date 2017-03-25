@@ -8,8 +8,8 @@ python \
 firefox-esr \
 menu \
 git \
-ttf-wqy-zenhei \
-cd /root && git clone https://github.com/Neilpang/noVNC.git \
+ttf-wqy-zenhei && \
+cd /root && git clone https://github.com/Neilpang/noVNC.git && \
 cd /root/noVNC && ln -s vnc_auto.html index.html
 
 
