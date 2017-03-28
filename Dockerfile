@@ -18,6 +18,10 @@ ADD autostart.sh /root/.config/openbox/autostart.sh
 RUN chmod +x /root/.config/openbox/autostart.sh
 
 ADD startup.sh /startup.sh
-RUN chmod 0755 /startup.sh
+RUN chmod 0755 /startup.sh && \
+apt-get autoremove && \
+apt-get clean && \
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
 
 CMD /startup.sh
