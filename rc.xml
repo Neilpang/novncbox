@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <desktops>
+    <!-- this stuff is only used at startup, pagers allow you to change them
+       during a session
+
+       these are default values to use when other ones are not already set
+       by other applications, or saved in your session
+
+       use obconf if you want to change these without having to log out
+       and back in -->
+    <number>1</number>
+    <firstdesk>1</firstdesk>
+    <names>
+      <!-- set names up here if you want to, like this:
+    <name>desktop 1</name>
+    <name>desktop 2</name>
+    -->
+    </names>
+    <popupTime>875</popupTime>
+    <!-- The number of milliseconds to show the popup for when switching
+       desktops.  Set this to 0 to disable the popup. -->
+  </desktops>
+
+
+  <applications>
+ 
+  </applications>
+</openbox_config>

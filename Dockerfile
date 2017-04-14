@@ -17,6 +17,8 @@ RUN mkdir -p /root/.config/openbox/
 ADD autostart.sh /root/.config/openbox/autostart.sh
 RUN chmod +x /root/.config/openbox/autostart.sh
 
+ADD rc.xml /root/.config/openbox/rc.xml
+
 ADD startup.sh /startup.sh
 RUN chmod 0755 /startup.sh && \
 apt-get autoremove && \

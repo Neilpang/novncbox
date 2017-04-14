@@ -24,6 +24,7 @@ mkdir -p ~/.config/openbox/
 rm -f ~/.config/openbox/autostart.sh
 
 ln -s $(pwd)/autostart.sh ~/.config/openbox/autostart.sh
+ln -s $(pwd)/rc.xml ~/.config/openbox/rc.xml
 
 (cd ~ && rm -rf noVNC && git clone https://github.com/Neilpang/noVNC.git)
 (cd ~/noVNC && ln -s vnc_auto.html index.html)
