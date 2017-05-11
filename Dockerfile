@@ -1,5 +1,6 @@
 FROM debian:8
 RUN apt-get update -qqy && apt-get install -qqy \
+psmisc \
 net-tools \
 openbox \
 x11vnc \
