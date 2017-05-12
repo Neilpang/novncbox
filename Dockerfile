@@ -22,7 +22,7 @@ RUN chmod +x /root/.config/openbox/autostart.sh
 ADD rc.xml /root/.config/openbox/rc.xml
 
 ADD startup.sh /startup.sh
-RUN chmod 0755 /startup.sh && \
+RUN chmod 0755 /startup.sh
 
 
 CMD /startup.sh
