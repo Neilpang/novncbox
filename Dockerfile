@@ -10,7 +10,7 @@ firefox-esr \
 menu \
 git \
 ttf-wqy-zenhei \
-&& apt-get -qy auto-remove && apt-get clean all && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
+&& apt-get -y auto-remove && apt-get clean all && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
 && cd /root && git clone https://github.com/Neilpang/noVNC.git \
 && cd /root/noVNC && ln -s vnc_auto.html index.html
 
