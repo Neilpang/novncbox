@@ -33,7 +33,7 @@ docker run -d -it -v ~:/cert -e SSLONLY=1 -e CERT=/cert/all_in_one.pem   -p 6080
 
 # 2. Run standalone
 
-### 1. In stall in Debian 8
+### 1. Install in Debian 8
 
 ```sh
 apt-get update -qqy && apt-get upgrade -qqy
